@@ -545,6 +545,8 @@ footer{
         width: 320px;
         height: 320px;
     }
+
+
 }
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
@@ -629,6 +631,9 @@ footer{
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
 @media only screen and (max-width: 540px){
+    h3 {
+        font-size: 16px;
+    }
     .featured-name{
         font-size: 40px;
     }
@@ -641,4 +646,35 @@ footer{
     .input-field{
         width: 100%;
     }
+
+
 }
+
+@media only screen and (max-width: 768px) {
+    .skills-box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* Center the skill headers on mobile */
+    .skills-header {
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Make skill list items span the full width */
+    .skills-list {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .skills-list span {
+        display: inline-block;
+        margin: 5px 0;
+        padding: 5px 10px;
+        width: 90%;
+        text-align: center;
+    }
+}
+
