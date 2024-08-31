@@ -341,9 +341,15 @@ h3{
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box{
     margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 .skills-header{
     margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 .skills-list{
     display: flex;
