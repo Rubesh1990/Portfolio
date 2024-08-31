@@ -681,3 +681,10 @@ footer{
     }
 }
 
+@media only screen and (max-width: 760px) {
+
+    h3 {
+        font-size: 14px;
+    }
+
+}
